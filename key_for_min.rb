@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-name_hash.collect do |brand, product|
+name_hash.min_by |brand, product|
   
 
 end
