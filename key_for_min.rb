@@ -22,5 +22,6 @@ array.each do |value|
   min_value = value if value < min_value
 end
 
-hash.each do |
+hash.each do |name, age|
+  
   
