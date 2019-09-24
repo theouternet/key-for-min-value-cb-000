@@ -8,6 +8,8 @@ if hash.length == 0
   
 else 
   
+  min_age = 0
+  
   hash.each do |name, age|
   
 end
