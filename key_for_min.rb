@@ -4,6 +4,10 @@
 def key_for_min_value(hash)
 
 if hash.length == 0 
+  return nil 
+  
+else 
+  
   
 
 hash.sort_by {|name, age| age}
