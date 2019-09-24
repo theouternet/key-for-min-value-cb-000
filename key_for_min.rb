@@ -24,4 +24,10 @@ end
 
 hash.each do |name, age|
   if min_value == value 
+    return key
+  end
+end
+end
+end
+
   
