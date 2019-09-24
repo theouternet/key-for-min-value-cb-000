@@ -12,6 +12,10 @@ else
 
 hash.each do {|name, age| age}
 
-array<<age 
+array << age 
 
 end
+
+min_value = array[0]
+
+array.each do 
