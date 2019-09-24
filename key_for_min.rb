@@ -8,11 +8,11 @@ if hash.length == 0
   
 else 
   
-  min_age = nil
+  min_age = 100
   name = nil
   
   hash.each do |name, age|
-    if age > min_age
+    if age < min_age
       
   
 end
