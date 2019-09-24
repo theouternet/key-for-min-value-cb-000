@@ -10,7 +10,7 @@ else
   
   array = []
 
-hash.each do {|name, age| age}
+hash.each do |name, age|
 
 array << age 
 
