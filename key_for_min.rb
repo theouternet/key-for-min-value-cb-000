@@ -16,6 +16,11 @@ else
       min_age = age
       min_name = name
       
+    else
+      
+            min_age = min_age
+      min_name = min_name
+      
     end
     
     return min_name
