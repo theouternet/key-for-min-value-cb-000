@@ -18,4 +18,4 @@ end
 
 min_value = array[0]
 
-array.each do 
+array.each do |value| 
