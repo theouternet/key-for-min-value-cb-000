@@ -12,7 +12,8 @@ else
   name = nil
   
   hash.each do |name, age|
-    if 
+    if age > min_age
+      
   
 end
 end
