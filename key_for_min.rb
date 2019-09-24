@@ -10,7 +10,7 @@ else
   
   
 
-hash.sort_by {|name, age| age}
+hash.each do {|name, age| age}
 
 return hash[0][0]
 
