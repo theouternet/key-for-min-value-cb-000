@@ -3,7 +3,8 @@
 
 def key_for_min_value(hash)
 
-if hash
+if hash.length == 0 
+  
 
 hash.sort_by {|name, age| age}
 
