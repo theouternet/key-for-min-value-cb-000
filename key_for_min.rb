@@ -8,7 +8,7 @@ if hash.length == 0
   
 else 
   
-  min_age = 100
+  min_age = 10000
   min_name = nil
   
   hash.each do |name, age|
