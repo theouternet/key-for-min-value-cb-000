@@ -5,6 +5,6 @@ def key_for_min_value(hash)
 
 hash.sort_by {|name, age| age}
 
-return *hash[0][0]
+return hash[0][0]
 
 end
