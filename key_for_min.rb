@@ -8,10 +8,10 @@ if hash.length == 0
   
 else 
   
-  
+  array = []
 
 hash.each do {|name, age| age}
 
-return hash[0][0]
+array<<age 
 
 end
