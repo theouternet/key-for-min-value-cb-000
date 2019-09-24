@@ -8,7 +8,7 @@ if hash.length == 0
   
 else 
   
-  hash.each do 
+  hash.each do |name, age|
   
 end
 end
