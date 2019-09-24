@@ -1,10 +1,10 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-def key_for_min_value(name_hash)
+def key_for_min_value(hash)
 
-name_hash.sort_by {|name, age| age}
+hash.sort_by {|name, age| age}
 
-return *name_hash[0][0]
+return *hash[0][0]
 
 end
