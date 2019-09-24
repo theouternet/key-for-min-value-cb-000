@@ -13,8 +13,8 @@ else
   
   hash.each do |name, age|
     if age < min_age
-      age = min_age
-      name = min_name
+      min_age = age
+      min_name = name
       
     end
     
