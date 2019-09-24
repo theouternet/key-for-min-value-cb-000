@@ -19,4 +19,4 @@ end
 min_value = array[0]
 
 array.each do |value| 
-  min_value = value if 
+  min_value = value if value < min_value
